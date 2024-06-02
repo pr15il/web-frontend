@@ -1,10 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap);
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+
+  input, select {
+    background-color: #374151;
+  }
+}
+
+@keyframes dotload {
+  0% { content: ' . ' }
+  50% { content: ' . . ' }
+  100% { content: ' . . .' }
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.add-loading:after {
+  animation-name: dotload;
+  animation-duration: 2s ;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  content: '.';
+}
+
+.idle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scan-region-highlight {
+  border-radius: 30px;
+  outline: rgba(0, 0, 0, .25) solid 50vmax;
 }
 
 code {

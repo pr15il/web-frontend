@@ -1,0 +1,47 @@
+{
+    "grid": [
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        },
+        {
+            "cover": "https://example.com/comic/cover.jpg",
+            "title": "Title of Comic",
+            "latest_ch": "1",
+            "slug": "comic"
+        }
+    ],
+    "totalPage": 3
+}

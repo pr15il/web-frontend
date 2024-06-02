@@ -1,0 +1,42 @@
+{
+    "comic": {
+        "titles": ["Title of Comic"],
+        "chapters": [
+            {
+                "p": "3",
+                "slug": "chapter3"
+            },
+            {
+                "p": "2.5",
+                "slug": "chapter2p"
+            },
+            {
+                "p": "2",
+                "slug": "chapter"
+            },
+            {
+                "p": "1",
+                "slug": "chapter1"
+            }
+        ],
+        "slug": "comic"
+    },
+    "images": [
+        "https://example.com/chap2intro.jpg",
+        "https://example.com/chap2part1.jpg",
+        "https://example.com/chap2part2.jpg",
+        "https://example.com/chap2part3.jpg",
+        "https://example.com/chap2part4.jpg",
+        "https://example.com/chap2part5.jpg",
+        "https://example.com/chap2part6.jpg",
+        "https://example.com/chap2part7.jpg",
+        "https://example.com/chap2part8.jpg"
+    ],
+    "disqus_sn": "",
+    "disqus_id": "",
+    "page": "2",
+    "slug": "chapter",
+    "url": "https://example.com/",
+    "nextPage": "chapter",
+    "prevPage": "chapter"
+}

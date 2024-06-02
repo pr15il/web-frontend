@@ -1,0 +1,57 @@
+{
+    "titles": [
+        "Title of Comic",
+        "alter1"
+    ],
+    "intro": "alakhazam",
+    "tags": [
+        {
+            "id": "1",
+            "name": "Action"
+        },
+        {
+            "id": "2",
+            "name": "Drama"
+        }
+    ],
+    "cover": "https://example.com/cover.jpg",
+    "author": "The Author",
+    "artist": "The Artistic",
+    "demos": "Shounen",
+    "track": [
+        "https://www.mangaupdates.com/series/nnnxxxx",
+        "https://www.anime-planet.com/manga/xxxxx",
+        "https://anilist.co/manga/nnnnnn",
+        "https://myanimelist.net/manga/nnnnnn"
+    ],
+    "chapters": [
+        {
+            "p": "3",
+            "slug": "chapter"
+        },
+        {
+            "p": "2.5",
+            "slug": "chapter"
+        },
+        {
+            "p": "2",
+            "slug": "chapter"
+        },
+        {
+            "p": "1",
+            "slug": "chapter"
+        }
+    ],
+    "slug": "comic",
+    "disqus": [
+        {
+            "shortname": "",
+            "ident": ""
+        },
+        {
+            "shortname": "",
+            "ident": ""
+        }
+    ],
+    "type": "Manga"
+}
